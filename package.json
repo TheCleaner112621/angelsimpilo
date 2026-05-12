@@ -1,0 +1,15 @@
+{
+  "name": "angelsimpilo-maintenance-backend",
+  "version": "0.1.0",
+  "description": "Backend API for the Angels Impilo maintenance application.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "lint": "node --check src/*.js test/*.test.js"
+  },
+  "keywords": ["maintenance", "work-orders", "api"],
+  "license": "MIT"
+}
